@@ -1,0 +1,29 @@
+Day 1: Monday May 11, 2026
+Goal: Transform your laptop into an AI Engineering workstation
+
+What python virtual environments are:
+A virtual environment creates an isolated python workspace for each project. 
+
+Important commands:
+
+Create environment
+python -m venv venv
+
+Activate (Linux/WSL/Mac)
+source venv/bin/activate
+
+activate (Windows)
+venv\Scripts\activate
+
+Install packages
+pip install requests
+
+save installed packages
+
+
+pip freeze>requirements.txt
+
+
+Exit environment
+deactivate
+
